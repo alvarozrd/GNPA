@@ -1,0 +1,25 @@
+RELATÓRIO - GNPA ORIGINAL VS GNPA SEM MONOBIT VS MT
+==========================================================================
+
+Data/hora: 2026-04-16T15:53:14
+
+Amostra: 1.000
+GNPA original: tempo médio=0.007585s | ns/número=7585.23 | Qui² médio=65.4592 | p médio=0.440012 | Monobit médio=100.00% | aprovação=80.0%
+GNPA sem Monobit: tempo médio=0.006337s | ns/número=6336.71 | Qui² médio=65.9712 | p médio=0.433472 | Monobit médio=99.34% | aprovação=80.0%
+Mersenne Twister: tempo médio=0.000171s | ns/número=170.76 | Qui² médio=63.6032 | p médio=0.465525 | Monobit médio=99.36% | aprovação=100.0%
+
+Amostra: 10.000
+GNPA original: tempo médio=0.076468s | ns/número=7646.79 | Qui² médio=62.8621 | p médio=0.485321 | Monobit médio=100.00% | aprovação=100.0%
+GNPA sem Monobit: tempo médio=0.063252s | ns/número=6325.16 | Qui² médio=62.2963 | p médio=0.498506 | Monobit médio=99.30% | aprovação=100.0%
+Mersenne Twister: tempo médio=0.001759s | ns/número=175.89 | Qui² médio=63.5686 | p médio=0.474774 | Monobit médio=99.28% | aprovação=100.0%
+
+Amostra: 100.000
+GNPA original: tempo médio=0.763713s | ns/número=7637.13 | Qui² médio=68.1933 | p médio=0.382724 | Monobit médio=100.00% | aprovação=90.0%
+GNPA sem Monobit: tempo médio=0.633071s | ns/número=6330.71 | Qui² médio=63.5944 | p médio=0.462747 | Monobit médio=99.31% | aprovação=100.0%
+Mersenne Twister: tempo médio=0.016615s | ns/número=166.15 | Qui² médio=64.0177 | p médio=0.464929 | Monobit médio=99.29% | aprovação=100.0%
+
+Amostra: 1.000.000
+GNPA original: tempo médio=7.695766s | ns/número=7695.77 | Qui² médio=94.8095 | p médio=0.026573 | Monobit médio=100.00% | aprovação=20.0%
+GNPA sem Monobit: tempo médio=6.371565s | ns/número=6371.57 | Qui² médio=58.2301 | p médio=0.632979 | Monobit médio=99.30% | aprovação=100.0%
+Mersenne Twister: tempo médio=0.164735s | ns/número=164.73 | Qui² médio=68.7725 | p médio=0.390869 | Monobit médio=99.30% | aprovação=70.0%
+

@@ -1,0 +1,19 @@
+campo,valor
+timestamp,2026-04-16T15:37:15
+hostname,MacBook-Air-de-Alvaro.local
+sistema,Darwin
+versao_sistema,Darwin Kernel Version 25.3.0: Wed Jan 28 20:53:31 PST 2026; root:xnu-12377.91.3~2/RELEASE_ARM64_T8103
+release,25.3.0
+arquitetura,arm64
+processador,arm
+python_versao,3.9.6
+cpu_fisicas,8
+cpu_logicas,8
+memoria_total_gb,8.000000
+memoria_disponivel_gb,1.400314
+memoria_utilizada_percent,82.500000
+rss_processo_mb,143.218750
+vms_processo_mb,425484.265625
+loadavg_1min,1.745605
+loadavg_5min,1.880371
+loadavg_15min,2.077637

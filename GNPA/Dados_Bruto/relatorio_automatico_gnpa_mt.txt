@@ -1,0 +1,73 @@
+RELATÓRIO AUTOMÁTICO - GNPA ORIGINAL VS GNPA OTIMIZADO VS MT
+========================================================================
+
+Data/hora: 2026-04-16T15:37:15
+Equivalência GNPA original x otimizado: SIM
+
+1. RESUMO POR AMOSTRA
+------------------------------------------------------------------------
+
+Amostra: 1.000
+GNPA original: tempo médio=0.008150s | ns/número=8150.41 | Qui² médio=65.4592 | p médio=0.440012 | aprovação=80.0%
+GNPA otimizado: tempo médio=0.008539s | ns/número=8539.45 | Qui² médio=65.4592 | p médio=0.440012 | aprovação=80.0%
+Mersenne Twister: tempo médio=0.000162s | ns/número=162.10 | Qui² médio=63.6032 | p médio=0.465525 | aprovação=100.0%
+
+Amostra: 10.000
+GNPA original: tempo médio=0.082241s | ns/número=8224.14 | Qui² médio=62.8621 | p médio=0.485321 | aprovação=100.0%
+GNPA otimizado: tempo médio=0.085044s | ns/número=8504.40 | Qui² médio=62.8621 | p médio=0.485321 | aprovação=100.0%
+Mersenne Twister: tempo médio=0.001590s | ns/número=158.99 | Qui² médio=63.5686 | p médio=0.474774 | aprovação=100.0%
+
+Amostra: 100.000
+GNPA original: tempo médio=0.815075s | ns/número=8150.75 | Qui² médio=68.1933 | p médio=0.382724 | aprovação=90.0%
+GNPA otimizado: tempo médio=0.853061s | ns/número=8530.61 | Qui² médio=68.1933 | p médio=0.382724 | aprovação=90.0%
+Mersenne Twister: tempo médio=0.015996s | ns/número=159.96 | Qui² médio=64.0177 | p médio=0.464929 | aprovação=100.0%
+
+Amostra: 1.000.000
+GNPA original: tempo médio=8.224166s | ns/número=8224.17 | Qui² médio=94.8095 | p médio=0.026573 | aprovação=20.0%
+GNPA otimizado: tempo médio=8.565287s | ns/número=8565.29 | Qui² médio=94.8095 | p médio=0.026573 | aprovação=20.0%
+Mersenne Twister: tempo médio=0.162531s | ns/número=162.53 | Qui² médio=68.7725 | p médio=0.390869 | aprovação=70.0%
+
+2. VENCEDOR POR VELOCIDADE
+------------------------------------------------------------------------
+Amostra 1.000: Mersenne Twister
+  - Mersenne Twister: 162.10 ns/número
+  - GNPA original: 8150.41 ns/número
+  - GNPA otimizado: 8539.45 ns/número
+Amostra 10.000: Mersenne Twister
+  - Mersenne Twister: 158.99 ns/número
+  - GNPA original: 8224.14 ns/número
+  - GNPA otimizado: 8504.40 ns/número
+Amostra 100.000: Mersenne Twister
+  - Mersenne Twister: 159.96 ns/número
+  - GNPA original: 8150.75 ns/número
+  - GNPA otimizado: 8530.61 ns/número
+Amostra 1.000.000: Mersenne Twister
+  - Mersenne Twister: 162.53 ns/número
+  - GNPA original: 8224.17 ns/número
+  - GNPA otimizado: 8565.29 ns/número
+
+3. VENCEDOR POR p-VALOR MÉDIO
+------------------------------------------------------------------------
+Amostra 1.000: Mersenne Twister
+  - Mersenne Twister: p médio = 0.465525
+  - GNPA otimizado: p médio = 0.440012
+  - GNPA original: p médio = 0.440012
+Amostra 10.000: GNPA otimizado
+  - GNPA otimizado: p médio = 0.485321
+  - GNPA original: p médio = 0.485321
+  - Mersenne Twister: p médio = 0.474774
+Amostra 100.000: Mersenne Twister
+  - Mersenne Twister: p médio = 0.464929
+  - GNPA otimizado: p médio = 0.382724
+  - GNPA original: p médio = 0.382724
+Amostra 1.000.000: Mersenne Twister
+  - Mersenne Twister: p médio = 0.390869
+  - GNPA otimizado: p médio = 0.026573
+  - GNPA original: p médio = 0.026573
+
+4. COMPARAÇÃO DIRETA DO GNPA ORIGINAL COM O OTIMIZADO
+------------------------------------------------------------------------
+Amostra 1.000: speedup = 0.954x | Δp_médio = +0.000000 | aprovação original = 80.0% | aprovação otimizado = 80.0%
+Amostra 10.000: speedup = 0.967x | Δp_médio = +0.000000 | aprovação original = 100.0% | aprovação otimizado = 100.0%
+Amostra 100.000: speedup = 0.955x | Δp_médio = +0.000000 | aprovação original = 90.0% | aprovação otimizado = 90.0%
+Amostra 1.000.000: speedup = 0.960x | Δp_médio = +0.000000 | aprovação original = 20.0% | aprovação otimizado = 20.0%
